@@ -1,0 +1,4 @@
+project.ext{
+    lifecycle_version = "2.5.0-rc02"
+    databinding = "4.2.2"
+}

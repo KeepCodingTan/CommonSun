@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_white">#ffffff</color>
+    <color name="color_929ea4">#929EA4</color>
+    <color name="color_455A64">#455A64</color>
+    <color name="color_4f636c">#4F636C</color>
+    <color name="color_9daabf">#9daabf</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="col_ABABAB">#ABABAB</color>
+    <color name="col_333333">#333333</color>
+</resources>

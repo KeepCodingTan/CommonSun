@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.library'
+}
+apply from: '../common.gradle'
+apply from: 'constant.gradle'
+
+
+dependencies {
+    api "androidx.multidex:multidex:$project.multidexVersion"
+    api "com.github.CymChad:BaseRecyclerViewAdapterHelper:$project.baseRvVertion"
+    api "com.scwang.smart:refresh-layout-kernel:$project.smartRefreshVersion"
+    api "com.scwang.smart:refresh-header-classics:$project.smartRefreshVersion"
+    api "com.gyf.immersionbar:immersionbar:$project.immersionbarVersion"
+    api "com.gyf.immersionbar:immersionbar-components:$project.immersionbarComponentsVersion"
+    api "com.tencent:mmkv-static:$project.mmkvVersion"
+    implementation project(path: ':LibNet')
+}

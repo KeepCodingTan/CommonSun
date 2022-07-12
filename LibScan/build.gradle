@@ -1,0 +1,9 @@
+plugins {
+    id 'com.android.library'
+}
+apply from: '../common.gradle'
+apply from: 'constant.gradle'
+
+dependencies {
+    api "com.github.yuriy-budiyev:code-scanner:$project.scanVertion"
+}

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF222222</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#1973F4</color>
+    <color name="colorPrimaryDark">#b5b5b5</color>
+    <color name="colorAccent">#b5b5b5</color>
+
+    <color name="center_view_color_blue">#31adfe</color>
+    <color name="top_text_color_black">#000000</color>
+    <color name="commom_sline_color_gray">#e9e9e9</color>
+    <color name="top_layout_color_white">#ffffff</color>
+    <color name="center_right_text_color_green">#86cf00</color>
+    <color name="center_bottom_text_color_red">#ff6000</color>
+    <color name="center_bottom_text_color_blue">#6ec6ff</color>
+    <color name="center_bottom_text_color_gray">#848e99</color>
+    <color name="center_right_botton_color_purple">#dda0dd</color>
+    <color name="commom_click_color_gray">#e0e0e0</color>
+    <color name="commom_click_color_gray_half">#7fe0e0e0</color>
+    <color name="top_left_layout_color_black">#00101b</color>
+    <color name="top_right_text_color_black">#575e65</color>
+    <color name="center_layout_color_gray">#f9f9f9</color>
+    <color name="center_layout_color_gray_deep">#e9e9e9</color>
+    <color name="center_bottom_sb_pg_color_blue">#14a2f4</color>
+    <color name="center_right_text_color_black">#2c2f33</color>
+    <color name="center_left_text_color_gray">#aaaaaa</color>
+    <color name="top_layout_color_gray">#f9f9f9</color>
+    <color name="top_text_color_black_alpha">#00000000</color>
+    <color name="left_text_color_blue">#2196f3</color>
+    <color name="top_left_layout_color_black_alpha">#b200101b</color>
+    <color name="center_bottom_sb_pg_color_blue_alpha">#5914a2f4</color>
+
+
+    <color name="main_color">#3e83e5</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="main_color_translucent">#E63e83e5</color>
+    <!--    <color name="colorPrimary">#00A4FF</color>-->
+    <!--    <color name="colorPrimaryDark">#00A4FF</color>-->
+    <!--    <color name="colorAccent">#FF4081</color>-->
+    <color name="color_4f">#ffff</color>
+    <color name="live_red">#FF5850</color>
+    <color name="col_DB003B">#DB003B</color>
+
+    <color name="white80">#E6FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#8f000000</color>
+    <color name="half_transparent0">#99000000</color>
+    <color name="colorTranslucent">#80000000</color>
+    <color name="col_FFEBED">#FFEBED</color>
+    <color name="col_5CC973">#5CC973</color>
+    <color name="col_24cb61">#24CB61</color>
+    <color name="col_F4F7F9">#F4F7F9</color>
+    <color name="col_4E5155">#4E5155</color>
+    <color name="col_EFA13B">#EFA13B</color>
+    <color name="col_F4F4F8">#F4F4F8</color>
+    <color name="col_8DBAFA">#8DBAFA</color>
+    <color name="col_F4F4F4">#F4F4F4</color>
+    <color name="col_FF522A">#FF522A</color>
+    <color name="col_FFF0ED">#FFF0ED</color>
+    <color name="col_F2F7FF">#F2F7FF</color>
+    <color name="col_333333_33">#E6333333</color>
+
+    <!--分类筛选菜单-->
+    <color name="font_black_0">#212121</color>
+    <color name="font_black_1">#424242</color>
+    <color name="font_black_2">#616161</color>
+    <color name="font_black_3">#757575</color>
+    <color name="font_black_4">#9e9e9e</color>
+    <color name="font_black_5">#bdbdbd</color>
+    <color name="font_black_6">#e0e0e0</color>
+    <color name="font_black_7">#FA574A</color>
+    <color name="font_black_8">#f4f5f9</color>
+    <color name="font_black_9">#4688F8</color>
+    <color name="col_1A73F4">#1A73F4</color>
+    <color name="col_2A323A">#2A323A</color>
+    <color name="col_327FFF">#327FFF</color>
+    <color name="col_1773e8">#1773E8</color>
+    <color name="col_2e97ff">#2E97FF</color>
+    <color name="col_2868E8">#2868E8</color>
+    <color name="col_2C2929">#2C2929</color>
+    <color name="col_c7c7c7">#C7C7C7</color>
+    <color name="col_F3F3F2">#F3F3F2</color>
+    <color name="col_fcfcff">#FCFCFF</color>
+    <color name="col_404048">#404048</color>
+    <color name="col_f3f3f3">#F3F3F3</color>
+    <color name="col_f3f3f4">#F3F3F4</color>
+    <color name="col_3f3f3f">#3F3F3F</color>
+
+    <color name="col_fbbe6f">#FBBE6F</color>
+    tv_times
+    <!--底部导航栏颜色-->
+    <color name="col_3e83e5">#3e83e5</color>
+    <color name="col_c8c8c8">#c8c8c8</color>
+    <!--StudyFragment顶部tab的颜色-->
+    <color name="col_3F83E5">#3F83E5</color>
+    <color name="col_818B9A">#818B9A</color>
+
+    <color name="col_bfd9ff">#bfd9ff</color>
+    <color name="col_e6e6e6">#e6e6e6</color>
+    <color name="col_286ff3">#286FF3</color>
+    <color name="col_B5B5B6">#B5B5B6</color>
+    <color name="col_818b9a">#818b9a</color>
+    <color name="col_f3f5f7">#f3f5f7</color>
+    <color name="col_969696">#969696</color>
+    <color name="col_71777d">#71777d</color>
+    <color name="col_0a0a0a">#0a0a0a</color>
+    <color name="col_b3b3b3">#b3b3b3</color>
+    <color name="col_3b3b3b">#3B3B3B</color>
+    <color name="col_343434">#343434</color>
+    <color name="col_368EE6">#368EE6</color>
+
+    <color name="col_9b9b9b">#9b9b9b</color>
+    <color name="col_F0F0F0">#F0F0F0</color>
+    <color name="col_7d848e">#7d848e</color>
+    <color name="col_b5b5b5">#b5b5b5</color>
+    <color name="col_2b333b">#2b333b</color>
+    <color name="col_707378">#707378</color>
+    <color name="col_7c8287">#7c8287</color>
+    <color name="col_999999">#999999</color>
+    <color name="col_f40002">#f40002</color>
+    <color name="col_1973f4">#1973F4</color>
+    <color name="col_ff0000">#FF0000</color>
+    <color name="col_F86442">#F86442</color>
+    <color name="col_E74D3C">#E74D3C</color>
+    <color name="col_F62145">#F62145</color>
+    <color name="col_cccccc">#cccccc</color>
+    <color name="col_b2b2b2">#b2b2b2</color>
+    <color name="col_d9dde1">#d9dde1</color>
+    <color name="col_d0d3d9">#d0d3d9</color>
+    <color name="col_9fa5ae">#9fa5ae</color>
+    <color name="col_eeeeee">#EEEEEE</color>
+    <color name="col_3a3a3a">#3a3a3a</color>
+    <color name="col_767676">#767676</color>
+    <color name="col_676767">#676767</color>
+    <color name="col_888888">#888888</color>
+    <color name="col_4a4a4a">#4a4a4a</color>
+    <color name="col_3f83e6">#3f83e6</color>
+    <color name="col_d4d4d4">#d4d4d4</color>
+    <color name="col_fa574a">#fa574a</color>
+    <color name="col_a9a9a9">#a9a9a9</color>
+    <color name="col_EDF0F3">#EDF0F3</color>
+    <color name="col_F35143">#F35143</color>
+    <color name="col_FDEC9B">#FDEC9B</color>
+    <color name="col_98340D">#98340D</color>
+
+    <color name="col_f94536">#f94536</color>
+    <color name="col_b6b6b8">#B6B6B8</color>
+    <color name="col_ff4032">#FF4032</color>
+    <color name="col_ff3b30">#FF3B30</color>
+    <color name="col_ff3c34">#FF3C34</color>
+    <color name="col_f7f7f7">#f7f7f7</color>
+    <color name="col_f7f9fc">#f7f9fc</color>
+    <color name="col_3d4b56">#3d4b56</color>
+    <color name="col_348fe3">#348FE3</color>
+    <color name="col_9daabf">#9daabf</color>
+    <color name="col_dcdcdc">#dcdcdc</color>
+    <color name="col_f7f7f9">#f7f7f9</color>
+    <color name="col_878c96">#878c96</color>
+    <color name="col_eef1f1">#eef1f1</color>
+    <color name="col_bcbfc3">#bcbfc3</color>
+    <color name="col_80a8e1">#80a8e1</color>
+    <color name="col_333333">#333333</color>
+    <color name="col_fafafa">#FAFAFA</color>
+    <color name="col_6d78a5">#6D78A5</color>
+    <color name="col_343A3A">#343A3A</color>
+    <color name="col_121212">#121212</color>
+    <color name="col_a4a4a4">#a4a4a4</color>
+    <color name="col_979797">#979797</color>
+    <color name="col_787878">#787878</color>
+    <color name="col_494949">#494949</color>
+    <color name="col_00D864">#00D864</color>
+    <color name="col_e0e0e0">#e0e0e0</color>
+    <color name="col_111111">#111111</color>
+    <color name="col_e4e3e7">#e4e3e7</color>
+    <color name="col_cfcfd3">#cfcfd3</color>
+    <color name="col_5a626b">#5a626b</color>
+    <color name="col_797979">#797979</color>
+    <color name="col_e0efff">#E0EFFF</color>
+    <color name="col_666666">#666666</color>
+    <color name="col_666669">#666669</color>
+    <color name="col_e9f2ff">#E9F2FF</color>
+    <color name="col_3ec89f">#3ec89f</color>
+    <color name="col_bbbbbb">#bbbbbb</color>
+    <color name="col_1a2630">#1a2630</color>
+    <color name="col_b1b1b1">#b1b1b1</color>
+    <color name="color_e5">#e5e5e5</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_9d9d9d">#9d9d9d</color>
+    <color name="col_4fc55f">#4fc55f</color>
+    <color name="col_00c780">#00C780</color>
+    <color name="col_717171">#717171</color>
+    <color name="col_a0a0a0">#a0a0a0</color>
+    <color name="col_989898">#989898</color>
+    <color name="col_434343">#434343</color>
+    <color name="col_ddd3d9">#ddd3d9</color>
+    <color name="gray_color">#4b4b58</color>
+    <color name="col_4e555e">#4e555e</color>
+    <color name="col_ecf4ff">#ecf4ff</color>
+    <color name="col_9ca3ab">#9ca3ab</color>
+    <color name="col_e5e5e5">#e5e5e5</color>
+    <color name="col_efefef">#EFEFEF</color>
+    <color name="col_e8e8e8">#e8e8e8</color>
+    <color name="col_ef6363">#ef6363</color>
+    <color name="col_ffdbdb">#ffdbdb</color>
+    <color name="col_ff5a5a">#ff5a5a</color>
+    <color name="col_ff575d">#FF575D</color>
+    <color name="col_2bc8a0">#2bc8a0</color>
+    <color name="col_ff4d4d">#FF4d4d</color>
+    <color name="col_61ddaa">#61ddaa</color>
+    <color name="col_f7e3e3">#f7e3e3</color>
+    <color name="col_cfcfcf">#cfcfcf</color>
+    <color name="col_70788c">#70788c</color>
+    <color name="col_cee0ff">#CEE0FF</color>
+    <color name="col_fcb13c">#fcb13c</color>
+    <color name="col_c1c1c1">#C1C1C1</color>
+    <color name="col_525760">#525760</color>
+    <color name="col_f40000">#f40000</color>
+    <color name="col_ffd9d8">#ffd9d8</color>
+    <color name="col_555555">#555555</color>
+    <color name="col_aaaaaa">#aaaaaa</color>
+    <color name="col_E3E3E3">#E3E3E3</color>
+    <color name="col_5282ea">#5282ea</color>
+    <color name="col_4594FF">#4594FF</color>
+    <color name="col_7f7f80">#7F7F80</color>
+    <color name="col_2f2f2f">#2f2f2f</color>
+    <color name="col_7c8790">#7c8790</color>
+    <color name="col_dee3eb">#dee3eb</color>
+    <color name="col_34394b">#34394b</color>
+    <color name="col_717581">#717581</color>
+    <color name="col_fff9ff">#FFF9FF</color>
+    <color name="col_f0f8ff">#F0F8FF</color>
+    <color name="col_222222">#222222</color>
+    <color name="popup_bg">#bf000000</color>
+    <color name="popup_bg_ff">#00000000</color>
+    <color name="col_f8f8f8">#f8f8f8</color>
+    <color name="col_AFB3B7">#AFB3B7</color>
+    <color name="col_929292">#929292</color>
+    <color name="col_7f7f7f">#7f7f7f</color>
+    <color name="col_eaeaea">#EAEAEA</color>
+    <color name="col_f4f5f7">#f4f5f7</color>
+    <color name="col_7b8494">#7b8494</color>
+    <color name="col_5b5363">#5b5363</color>
+    <color name="col_6c6c6c">#6c6c6c</color>
+    <color name="col_c6c6c6">#c6c6c6</color>
+    <color name="col_fe4c44">#fe4c44</color>
+    <color name="col_444444">#444444</color>
+    <color name="col_383838">#383838</color>
+    <color name="col_9f9f9f">#9f9f9f</color>
+    <color name="col_959595">#959595</color>
+    <color name="col_a8a8a8">#a8a8a8</color>
+    <color name="col_2e2e2e">#2e2e2e</color>
+    <color name="col_f2f7fc">#f2f7fc</color>
+    <color name="col_d8d8d8">#d8d8d8</color>
+    <color name="col_d8e8ff">#D8E8FF</color>
+    <color name="col_f2f2f2">#F2F2F2</color>
+    <color name="col_414141">#414141</color>
+    <color name="col_d5f4ec">#d5f4ec</color>
+    <color name="col_3091ed">#3091ed</color>
+    <color name="col_2c2c2c">#2c2c2c</color>
+    <color name="col_dcdfe3">#dcdfe3</color>
+    <color name="col_bfbfbf">#bfbfbf</color>
+    <color name="col_1A2630">#1A2630</color>
+    <color name="col_f46c18">#f46c18</color>
+    <color name="col_F55A5A">#F55A5A</color>
+    <color name="col_757575">#757575</color>
+    <color name="col_36383f">#36383f</color>
+    <color name="col_A4B4C6">#A4B4C6</color>
+    <color name="col_36404a">#36404a</color>
+    <color name="col_404040">#404040</color>
+    <color name="col_808080">#808080</color>
+    <color name="col_7f8fa2">#7f8fa2</color>
+    <color name="col_281e29">#281e29</color>
+    <color name="col_ff741e">#ff741e</color>
+    <color name="col_aeaeae">#aeaeae</color>
+    <color name="col_ebebeb">#ebebeb</color>
+    <color name="col_000000">#000000</color>
+    <color name="col_F2D89F">#F2D89F</color>
+    <color name="col_2a2a2a">#2a2a2a</color>
+    <color name="col_565656">#565656</color>
+    <color name="col_A2A2A2">#A2A2A2</color>
+    <color name="col_191919">#191919</color>
+    <color name="col_DE9F1B">#DE9F1B</color>
+    <color name="col_bcbcbc">#bcbcbc</color>
+    <color name="col_b3b6bf">#b3b6bf</color>
+    <color name="col_fff4e6">#fff4e6</color>
+    <color name="col_ff6766">#ff6766</color>
+    <color name="col_FF6668">#FF6668</color>
+    <color name="col_343338">#343338</color>
+    <color name="col_464646">#464646</color>
+    <color name="col_1a2635">#1a2635</color>
+    <color name="col_6B6F6F">#6B6F6F</color>
+    <color name="col_ff4646">#FF4646</color>
+    <color name="col_fff3f1">#fff3f1</color>
+    <color name="col_f6f6f6">#f6f6f6</color>
+    <color name="col_f5f5f5">#f5f5f5</color>
+    <color name="col_dddddd">#dddddd</color>
+    <color name="col_ffcf31">#ffcf31</color>
+    <color name="col_584f60">#584F60</color>
+    <color name="col_352F3A">#352F3A</color>
+    <color name="col_242932">#242932</color>
+    <color name="col_928e8e">#928E8E</color>
+    <color name="col_262626">#262626</color>
+    <color name="col_F5F9FF">#F5F9FF</color>
+    <color name="col_DFE8F5">#DFE8F5</color>
+    <color name="col_ACB6C6">#ACB6C6</color>
+    <color name="col_272E34">#272E34</color>
+    <color name="col_4587F8">#4587F8</color>
+    <color name="col_7e8388">#7e8388</color>
+    <color name="col_A9ABAE">#A9ABAE</color>
+    <color name="col_ABABAB">#ABABAB</color>
+    <color name="col_2B333B">#2B333B</color>
+    <color name="col_D7D9DB">#D7D9DB</color>
+    <color name="col_4688f8">#4688f8</color>
+    <color name="col_848A94">#848A94</color>
+    <color name="col_abacad">#ABACAD</color>
+    <color name="col_307FFF">#307FFF</color>
+    <color name="col_E5E6E8">#E5E6E8</color>
+    <color name="col_C3C4C5">#C3C4C5</color>
+    <color name="col_3E83E5">#3E83E5</color>
+
+    <color name="colorPrimaryAlpha">#33F27C19</color>
+
+    <!--标题背景色-->
+    <color name="colorTitleBg">#F27C19</color>
+
+    <!--内容区域背景色-->
+    <color name="colorContentBg">#FAFAFA</color>
+    <!--标题右边文字颜色-->
+    <color name="colorTitleRightNormal">#ffffff</color>
+    <color name="colorTitleRightPressed">#80ffffff</color>
+    <color name="col_80ffffff">#80ffffff</color>
+
+    <color name="colorItemLine">#DDDDDD</color>
+    <color name="colorItemNormal">#FFFFFF</color>
+    <color name="colorItemPressed">#DDDDDD</color>
+    <color name="colorItemTip">#333333</color>
+    <color name="colorItemValue">#666666</color>
+
+    <!--togglebutton color-->
+    <color name="colorThumb">#FFFFFF</color>
+    <color name="colorThumbHov">#FFFFFF</color>
+    <color name="colorBack">#999999</color>
+    <color name="colorBackHov">#FF6633</color>
+    <color name="colorJoinlase">#F27C1A</color>
+    <color name="colorBtnPressed">#FF6633</color>
+    <color name="colorBtnDisable">#CCCCCC</color>
+
+    <!--扫一扫-->
+    <color name="qr_code_white">#FFFFFFFF</color>
+    <color name="qr_code_flashlight_bg">#66000000</color>
+    <color name="qr_code_finder_mask">#80000000</color>
+    <color name="qr_code_flash_light_text_color">#66FFFFFF</color>
+    <color name="qr_code_finder_frame">#FFFFFFFF</color>
+    <color name="qr_code_finder_laser">#F27C19</color>
+    <color name="qr_album_normal">#FFFFFF</color>
+    <color name="qr_album_pressed">#666666</color>
+    <color name="chat_bg">#00000000</color>
+    <color name="chat_list">#40000000</color>
+
+    <!--    &lt;!&ndash; ========================== 自定义 PhotoPicker 颜色 START ========================== &ndash;&gt;-->
+    <!--    &lt;!&ndash; PhotoPicker 状态栏的颜色 &ndash;&gt;-->
+
+    <!--    <color name="bga_pp_colorPrimaryDark">@color/white</color>-->
+    <color name="bga_pp_eighteen_maskColor">@android:color/transparent</color>
+    <!--    &lt;!&ndash; PhotoPicker 导航栏的颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_navigationBarColor">@color/white</color>-->
+    <!-- PhotoPicker Toolbar 的颜色 -->
+    <color name="bga_pp_colorPrimary">@color/black</color>
+    <!--    &lt;!&ndash; 图片选择器库里所有Activity界面的背景色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_activity_bg">@android:color/white</color>-->
+    <!--    &lt;!&ndash; 文字颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_common_textColor">@color/gl_title_white_text</color>-->
+    <!--    &lt;!&ndash; 文件夹名称颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_folder_name_textColor">#282828</color>-->
+    <!--    &lt;!&ndash; 文件夹中照片数量颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_folder_count_textColor">#585858</color>-->
+    <!--    &lt;!&ndash; 图片条目背景色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_photo_item_bg">#303d42</color>-->
+    <!--    &lt;!&ndash; 拍摄照片文字颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_take_photo_textColor">#adb2bb</color>-->
+    <!--    &lt;!&ndash; 图片处于选中状态时的遮罩层颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_photo_selected_mask">#4DFFFFFF</color>-->
+    <!-- 右上角确认按钮不可用时的颜色 -->
+    <color name="bga_pp_btn_confirm_disabled">@android:color/transparent</color>
+    <!-- 右上角确认按钮可用时的颜色 -->
+    <color name="bga_pp_btn_confirm_enabled">@android:color/transparent</color>
+    <!-- 右上角确认按钮按下时的颜色 -->
+    <color name="bga_pp_btn_confirm_pressed">@android:color/transparent</color>
+    <!--    &lt;!&ndash; 预览界面底部背景色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_preview_bottom_bg">@color/colorPrimary</color>-->
+    <!--    &lt;!&ndash; 数据加载对话框加载进度条的颜色 &ndash;&gt;-->
+    <!--    <color name="bga_pp_loading_progress_startColor">@android:color/white</color>-->
+    <!--    <color name="bga_pp_loading_progress_centerColor">@color/colorPrimaryDark</color>-->
+    <!--    <color name="bga_pp_loading_progress_endColor">@color/colorPrimaryDark</color>-->
+    <!--&lt;!&ndash;     ========================== 自定义 PhotoPicker 颜色 END ========================== &ndash;&gt;-->
+
+    <!-- Study -->
+    <color name="study_page_bg_gray">#ffF5F5F5</color>
+    <color name="study_calendar_selected_date_bg">#ff0088FF</color>
+    <color name="study_calendar_selected_date_text">#ffFFFFFF</color>
+    <color name="study_calendar_scheme_date_point">#ffFF5151</color>
+    <color name="study_calendar_scheme_date_text">#ff000000</color>
+    <color name="study_calendar_focus_color">#ff0088FF</color>
+    <color name="study_static_text_color_dark">#ff333333</color>
+    <color name="study_static_text_color_light_gray_1">#ff666666</color>
+    <color name="study_static_text_color_light_gray_2">#ff888888</color>
+    <color name="study_static_text_color_light">#ffFFFFFF</color>
+
+    <color name="system_tips_background">#EFF3F6</color>
+    <color name="system_tips_text">#62778C</color>
+    <color name="light_gray">#D5D5D5</color>
+    <color name="col_ECF3FF">#ECF3FF</color>
+
+
+    <color name="test_blue">#338BFF</color>
+    <color name="colorCloud">#006EFF</color>
+
+    <color name="col_373839">#373839</color>
+    <color name="col_00a8ff">#00a8ff</color>
+    <color name="blue_3cbaff">#3cbaff</color>
+    <color name="col_878787">#878787</color>
+
+    <color name="col_166BFF">#166BFF</color>
+    <color name="col_E6F0FF">#E6F0FF</color>
+    <color name="col_32BF94">#32BF94</color>
+    <color name="col_D1F4EB">#D1F4EB</color>
+    <color name="col_FCE3CE">#FCE3CE</color>
+    <color name="col_F6730A">#F6730A</color>
+    <color name="col_686868">#686868</color>
+    <color name="col_FF6F1E">#FF6F1E</color>
+    <color name="col_FF523B">#FF523B</color>
+</resources>

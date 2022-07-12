@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.library'
+}
+apply from: '../common.gradle'
+apply from : 'constant.gradle'
+
+dependencies {
+    //retrofit
+    api "com.squareup.retrofit2:retrofit:$project.retrofit2_vertion"
+    api "com.squareup.retrofit2:adapter-rxjava2:$project.retrofit2_vertion"
+    api "com.squareup.retrofit2:converter-gson:$project.retrofit2_vertion"
+    //rx
+    api "io.reactivex.rxjava2:rxandroid:$project.rxandroid"
+    api "io.reactivex.rxjava2:rxjava:$project.rxjava"
+    //blankj
+    api "com.blankj:utilcodex:$project.utilcodexVersion"
+}

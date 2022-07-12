@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/activity_base.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/base_empty.xml" value="0.30055579307396324" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/base_retry.xml" value="0.21305530371713507" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/base_stub_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/common_title_bar.xml" value="0.4276155717761557" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/dialog_fragment_base.xml" value="0.20316301703163017" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/fragment_base.xml" value="0.30055579307396324" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/lotus_activity_root.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/view_load_error.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/view_loading.xml" value="0.21305530371713507" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/view_no_data.xml" value="0.21305530371713507" />
+        <entry key="..\:/android_project/CommonSun/LibBase/src/main/res/layout/view_no_network.xml" value="0.30055579307396324" />
+        <entry key="..\:/android_project/CommonSun/LibScan/src/main/res/layout/activity_scan.xml" value="0.30055579307396324" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/drawable/sign_in_bg.xml" value="0.26" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/activity_main.xml" value="0.2997007268063275" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/item_list.xml" value="0.33" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/sign_in_activity.xml" value="0.30055579307396324" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/test_dialog_frag.xml" value="0.4263990267639903" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/test_fragment.xml" value="0.4276155717761557" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/test_fragment_act.xml" value="0.4276155717761557" />
+        <entry key="..\:/android_project/CommonSun/app/src/main/res/layout/test_list_activity.xml" value="0.30055579307396324" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

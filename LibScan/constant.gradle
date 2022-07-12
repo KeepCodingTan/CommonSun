@@ -1,0 +1,3 @@
+project.ext{
+    scanVertion = "2.3.2"
+}
