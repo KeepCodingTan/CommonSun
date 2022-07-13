@@ -4,32 +4,7 @@ plugins {
 }
 apply from: '../common.gradle'
 apply from: 'constant.gradle'
-
-afterEvaluate {
-    publishing {
-        publications {
-            // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                // Applies the component for the release build variant.
-                from components.release
-
-                // You can then customize attributes of the publication as shown below.
-                groupId = 'com.common.sun'
-                artifactId = 'libscan'
-                version = '1.0.0'
-            }
-            // Creates a Maven publication called “debug”.
-            debug(MavenPublication) {
-                // Applies the component for the debug build variant.
-                from components.debug
-
-                groupId = 'com.common.sun'
-                artifactId = 'libscan-debug'
-                version = '1.0.0'
-            }
-        }
-    }
-}
+apply from: 'upload.gradle'
 
 dependencies {
     api "com.github.yuriy-budiyev:code-scanner:$project.scanVertion"
