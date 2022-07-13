@@ -3,7 +3,7 @@ plugins {
 }
 apply from: '../common.gradle'
 apply from: 'constant.gradle'
-apply from: 'upload.gradle'
+//apply from: 'upload.gradle'
 
 dependencies {
     api "com.github.yuriy-budiyev:code-scanner:$project.scanVertion"
