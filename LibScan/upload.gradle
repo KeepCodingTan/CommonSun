@@ -12,7 +12,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.common.tan'
                 artifactId = 'libscan'
-                version = '1.0.0'
+                version = '1.0.3'
             }
         }
     }
