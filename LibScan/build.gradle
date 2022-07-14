@@ -38,12 +38,12 @@ afterEvaluate {
     }
 }
 //release插件，https授权
-scmVersion{
+/*scmVersion{
     repository{
         customUsername = gitUser
         customPassword = gitPassWord
     }
-}
+}*/
 
 dependencies {
     api "com.github.yuriy-budiyev:code-scanner:$project.scanVertion"
