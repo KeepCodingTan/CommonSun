@@ -23,17 +23,17 @@ afterEvaluate {
             }
         }
         //jitpack推送授权
-        repositories {
+        /*repositories {
             maven {
-//                name('jitpack')
-                url "https://github.com/KeepCodingTan/CommonSun.git"
+                name('jitpack')
+                url "https://jitpack.io"
                 allowInsecureProtocol = true
                 credentials {
                     username gitUser
                     password gitPassWord
                 }
             }
-        }
+        }*/
 
     }
 }
