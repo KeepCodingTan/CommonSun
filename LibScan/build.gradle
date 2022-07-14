@@ -23,7 +23,7 @@ afterEvaluate {
             }
         }
         //jitpack推送授权
-        /*repositories {
+        repositories {
             maven {
                 name('jitpack')
                 url "https://jitpack.io"
@@ -33,17 +33,17 @@ afterEvaluate {
                     password gitPassWord
                 }
             }
-        }*/
+        }
 
     }
 }
 //release插件，https授权
-scmVersion{
+/*scmVersion{
     repository{
         customUsername = gitUser
         customPassword = gitPassWord
     }
-}
+}*/
 
 dependencies {
     api "com.github.yuriy-budiyev:code-scanner:$project.scanVertion"
