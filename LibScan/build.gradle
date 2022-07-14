@@ -30,7 +30,7 @@ afterEvaluate {
                 allowInsecureProtocol = true
                 credentials {
                     username "KeepCodingTan"
-                    password "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"
+                    password "sc*900610"
                 }
             }
         }
@@ -41,7 +41,7 @@ afterEvaluate {
 scmVersion{
     repository{
         customUsername = "KeepCodingTan"
-        customPassword = "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"
+        customPassword = "sc*900610"
     }
 }
 
