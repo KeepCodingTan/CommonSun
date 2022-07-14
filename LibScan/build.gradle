@@ -25,8 +25,8 @@ afterEvaluate {
         //jitpack推送授权
         repositories {
             maven {
-                name('jitpack')
-                url "https://jitpack.io"
+//                name('jitpack')
+                url "https://github.com/KeepCodingTan/CommonSun.git"
                 allowInsecureProtocol = true
                 credentials {
                     username gitUser
