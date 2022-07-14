@@ -29,8 +29,8 @@ afterEvaluate {
                 url "https://jitpack.io"
                 allowInsecureProtocol = true
                 credentials {
-                    username gitUser
-                    password gitPassWord
+                    username "KeepCodingTan"
+                    password "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"
                 }
             }
         }
@@ -40,8 +40,8 @@ afterEvaluate {
 //release插件，https授权
 scmVersion{
     repository{
-        customUsername = gitUser
-        customPassword = gitPassWord
+        customUsername = "KeepCodingTan"
+        customPassword = "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"
     }
 }
 
