@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/LibBase" />
             <option value="$PROJECT_DIR$/LibNet" />
+            <option value="$PROJECT_DIR$/LibPush" />
             <option value="$PROJECT_DIR$/LibScan" />
             <option value="$PROJECT_DIR$/app" />
           </set>

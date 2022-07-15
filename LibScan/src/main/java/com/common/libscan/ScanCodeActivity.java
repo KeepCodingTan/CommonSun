@@ -13,6 +13,9 @@ import com.budiyev.android.codescanner.CodeScanner;
 import com.budiyev.android.codescanner.CodeScannerView;
 import com.budiyev.android.codescanner.DecodeCallback;
 import com.google.zxing.Result;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 /**
@@ -23,7 +26,7 @@ import java.util.Vector;
 public class ScanCodeActivity extends AppCompatActivity implements DecodeCallback {
     private CodeScanner mCodeScanner;
     private CodeScannerView scannerView;
-    private Vector<ScanObserver> mObservers = new Vector<>();
+    private List<ScanObserver> mObservers = new ArrayList<>();
 
 
     @Override
@@ -57,9 +60,7 @@ public class ScanCodeActivity extends AppCompatActivity implements DecodeCallbac
         for (Class<? extends ScanObserver> cls : classVector){
             try {
                 mObservers.add(cls.newInstance());
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            } catch (InstantiationException e) {
+            } catch (IllegalAccessException | InstantiationException e) {
                 e.printStackTrace();
             }
         }

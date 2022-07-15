@@ -8,6 +8,8 @@ import com.common.libnet.NetWorkManager;
 import com.common.libnet.inter.NetWorkInterface;
 import com.common.libnet.tools.HttpConstants;
 import com.common.libnet.tools.HttpException;
+import com.common.libpush.MesDispatchManager;
+import com.common.libpush.jpush.PushManager;
 import com.common.libscan.ScanManager;
 import com.google.gson.Gson;
 
@@ -24,6 +26,17 @@ public class MyApp extends App {
         super.onCreate();
         initNetWork();
         registerScanObserver();
+        initJpush();
+    }
+
+    private void initJpush() {
+        registerPushMessageObserver();
+        PushManager.getInstance().init(this);
+        PushManager.getInstance().setAlias(this,"sun123456");
+    }
+
+    private void registerPushMessageObserver() {
+//        MesDispatchManager.getInstance().registerObserver();
     }
 
     private void registerScanObserver() {

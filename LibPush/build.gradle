@@ -1,0 +1,11 @@
+plugins {
+    id 'com.android.library'
+}
+apply from: '../common.gradle'
+apply from: 'constant.gradle'
+apply from: 'upload.gradle'
+
+dependencies {
+    api "cn.jiguang.sdk:jcore:$project.jcoreVersion"
+    api "cn.jiguang.sdk:jpush:$project.jpushVersion"
+}

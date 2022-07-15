@@ -1,0 +1,4 @@
+project.ext{
+    jcoreVersion = '3.3.0'
+    jpushVersion = '4.7.2'
+}
