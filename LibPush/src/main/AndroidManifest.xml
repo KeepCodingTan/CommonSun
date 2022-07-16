@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.common.libpush">
 
+    <!-- Required -->
+    <permission
+        android:name="com.whrhkj.cailueapp.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.whrhkj.cailueapp.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application>
         <service android:name=".jpush.CustomJCommonService"
             android:enabled="true"
@@ -18,7 +26,7 @@
             android:exported="false" >
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
-                <category android:name="com.common.base" />
+                <category android:name="com.whrhkj.cailueapp" />
             </intent-filter>
         </receiver>
     </application>

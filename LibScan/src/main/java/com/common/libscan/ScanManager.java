@@ -28,15 +28,25 @@ public class ScanManager {
         observerVector = new Vector<>();
     }
 
-    public void registerObserver(Class<? extends ScanObserver> observer){
-        if(!observerVector.contains(observer)){
-            observerVector.add(observer);
+    @SafeVarargs
+    public final void registerObserver(Class<? extends ScanObserver>... observers){
+        if(observers != null){
+            for(Class<? extends ScanObserver> so : observers){
+                if(!observerVector.contains(so)){
+                    observerVector.add(so);
+                }
+            }
         }
     }
 
-    public void unRegisterObserver(Class<? extends ScanObserver> observer){
-        if(observerVector.contains(observer)){
-            observerVector.remove(observer);
+    @SafeVarargs
+    public final void unRegisterObserver(Class<? extends ScanObserver>... observers){
+        if(observers != null){
+            for (Class<? extends ScanObserver> so : observers){
+                if(observerVector.contains(so)){
+                    observerVector.remove(so);
+                }
+            }
         }
     }
 

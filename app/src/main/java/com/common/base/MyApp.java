@@ -36,12 +36,11 @@ public class MyApp extends App {
     }
 
     private void registerPushMessageObserver() {
-//        MesDispatchManager.getInstance().registerObserver();
+        MesDispatchManager.getInstance().registerObserver();
     }
 
     private void registerScanObserver() {
-        ScanManager.getInstance().registerObserver(SignInObserver.class);
-        ScanManager.getInstance().registerObserver(FinalObserver.class);
+        ScanManager.getInstance().registerObserver(SignInObserver.class,FinalObserver.class);
     }
 
     private void initNetWork() {
