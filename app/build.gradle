@@ -11,7 +11,6 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
-
         manifestPlaceholders = [
                 JPUSH_PKGNAME : applicationId,
                 //JPush 上注册的包名对应的 Appkey.
@@ -19,7 +18,6 @@ android {
                 //暂时填写默认值即可.
                 JPUSH_CHANNEL : "developer-default",
         ]
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

@@ -6,6 +6,7 @@ import android.util.Log;
 import com.common.libpush.MesDispatchManager;
 import com.common.libpush.MessageObserver;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,6 +27,7 @@ public class PushManager {
     private int tag = 1;
 
     private volatile Map<String, ArrayList<PushMessageListener>> cusMessageListener;
+    private List<PushInterceptor> interceptors = new ArrayList<>();
 
 //    private volatile Vector<PushMessageListener> notificMessageListener;
 
@@ -145,6 +147,12 @@ public class PushManager {
                 pml.onNotifyMessageOpened(pushMessage);
             }
         }*/
+        for(PushInterceptor pi : interceptors){
+            if(pi.intercept(pushMessage)){
+                return;
+            }
+        }
+
         for(MessageObserver observer: messageObservers){
             if(observer.match(pushMessage)){
                 observer.handle(pushMessage);
@@ -166,10 +174,31 @@ public class PushManager {
         }
         Log.d(TAG,"message=="+message);
         PushMessage pushMessage = new PushMessage(message,extra,contentType);
+
+        for (PushInterceptor pi : interceptors){
+            if(pi.intercept(pushMessage)){
+                return;
+            }
+        }
+
         ArrayList<PushMessageListener> list = cusMessageListener.get(contentType);
         if(list != null){
             for(PushMessageListener pml : list){
                 pml.onMessage(pushMessage);
+            }
+        }
+    }
+
+    /**
+     * 添加消息拦截器
+     * @param interceptor
+     */
+    public void addPushInterceptor(PushInterceptor... interceptor){
+        if(interceptor != null){
+            for (PushInterceptor pi : interceptor){
+                if(!interceptors.contains(pi)){
+                    interceptors.add(pi);
+                }
             }
         }
     }
