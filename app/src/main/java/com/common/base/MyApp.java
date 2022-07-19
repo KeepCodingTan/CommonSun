@@ -30,9 +30,14 @@ public class MyApp extends App {
     }
 
     private void initJpush() {
+        addPushInterceptor();
         registerPushMessageObserver();
         PushManager.getInstance().init(this);
         PushManager.getInstance().setAlias(this,"sun123456");
+    }
+
+    private void addPushInterceptor() {
+        PushManager.getInstance().addPushInterceptor();
     }
 
     private void registerPushMessageObserver() {
