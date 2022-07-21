@@ -2,7 +2,7 @@ project.ext{
     lifecycle_version = '2.5.0-rc02'
     //分包
     multidexVersion = '2.0.1'
-    baseRvVertion = '3.0.4'
+    baseRvVertion = '2.9.30'
     smartRefreshVersion = '2.0.3'
     immersionbarVersion = '3.0.0'
     immersionbarComponentsVersion = '3.0.0'
