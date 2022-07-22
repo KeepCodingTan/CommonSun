@@ -4,7 +4,7 @@ import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.viewholder.BaseViewHolder;
+import com.chad.library.adapter.base.BaseViewHolder;
 import com.common.libbase.inter.ListPageListener;
 import com.common.libbase.vm.BaseListViewModel;
 
@@ -55,7 +55,7 @@ public abstract class AbsListActivity<T,DB extends ViewDataBinding, VM extends B
     private void onLoadSuccess(List<T> ts) {
        if(mViewModel.isFirstPage()){
            getRefreshLayout().finishRefresh();
-           adapter.setList(ts);
+           adapter.setNewData(ts);
        }else {
            if(mViewModel.isLastPage()){
                getRefreshLayout().finishLoadMoreWithNoMoreData();

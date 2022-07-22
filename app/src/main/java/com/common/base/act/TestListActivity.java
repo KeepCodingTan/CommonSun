@@ -3,8 +3,9 @@ package com.common.base.act;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.viewholder.BaseViewHolder;
+import com.chad.library.adapter.base.BaseViewHolder;
 import com.common.base.R;
 import com.common.base.databinding.TestListActivityBinding;
 import com.common.base.viewmodel.ListViewModel;
