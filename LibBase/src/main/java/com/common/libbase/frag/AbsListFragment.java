@@ -3,9 +3,8 @@ package com.common.libbase.frag;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.BaseViewHolder;
+import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 import com.common.libbase.inter.ListPageListener;
 import com.common.libbase.act.BaseActivity;
 import com.common.libbase.vm.BaseListViewModel;

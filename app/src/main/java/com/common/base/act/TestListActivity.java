@@ -3,9 +3,8 @@ package com.common.base.act;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.BaseViewHolder;
+import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 import com.common.base.R;
 import com.common.base.databinding.TestListActivityBinding;
 import com.common.base.viewmodel.ListViewModel;
@@ -31,10 +30,10 @@ public class TestListActivity extends AbsListActivity<String, TestListActivityBi
 
     @Override
     public BaseQuickAdapter<String, BaseViewHolder> createAdapter() {
-        return new BaseQuickAdapter<String, BaseViewHolder>(R.layout.item_list) {
+        return new BaseQuickAdapter<>(R.layout.item_list) {
             @Override
             protected void convert(@NonNull BaseViewHolder holder, String s) {
-                holder.setText(R.id.tvContent,s);
+                holder.setText(R.id.tvContent, s);
             }
         };
     }
